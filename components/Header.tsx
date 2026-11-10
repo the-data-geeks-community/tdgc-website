@@ -26,7 +26,7 @@ export default function Header() {
           <Link
             href={link.href}
             key={link.href}
-            className="font-semibold text-navy hover:bg-brand-green transition-colors duration-200"
+            className="font-semibold text-navy hover:text-brand-green transition-colors duration-200"
           >
             {link.label}
           </Link>
