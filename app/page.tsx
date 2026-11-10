@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main className="p-10">
+    <main>
       <Header />
       <Hero/>
     </main>
