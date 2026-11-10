@@ -14,7 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "The Data Geeks Community",
-  description: "A community for data enthusiasts to collaborate, learn, grow and excel.",
+  description:
+    "A community for data enthusiasts to collaborate, learn, grow and excel.",
+  icons: { icon: "/assets/logo.png" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
